@@ -1,0 +1,92 @@
+{
+  "release": "38807-v1",
+  "table": "incidents",
+  "source": "ICPSR",
+  "created_at": "2026-03-02T00:16:19.478935Z",
+  "partitioning": {
+    "type": "hive",
+    "keys": [
+      "year"
+    ]
+  },
+  "schema": [
+    {
+      "name": "INCIDENT_ID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ORI",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "INCNUM",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "INCDATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V20071",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V20061",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V20072",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V20171",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V20091",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "STATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "FIPS_STATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "YEAR",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "RELEASE",
+      "type": "string",
+      "nullable": true
+    }
+  ],
+  "coverage": {
+    "years": [
+      "2021"
+    ]
+  },
+  "files": {
+    "count": 42,
+    "format": "parquet",
+    "compression": "zstd"
+  },
+  "rows": {
+    "total": 10342523
+  }
+}

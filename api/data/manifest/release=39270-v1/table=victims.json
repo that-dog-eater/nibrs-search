@@ -1,0 +1,107 @@
+{
+  "release": "39270-v1",
+  "table": "victims",
+  "source": "ICPSR",
+  "created_at": "2026-03-02T01:19:07.162314Z",
+  "partitioning": {
+    "type": "hive",
+    "keys": [
+      "year"
+    ]
+  },
+  "schema": [
+    {
+      "name": "INCIDENT_ID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ORI",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "INCNUM",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "INCDATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4006",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4018",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4019",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4020",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4021",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4022",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4030",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V4040",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "STATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "FIPS_STATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "YEAR",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "RELEASE",
+      "type": "string",
+      "nullable": true
+    }
+  ],
+  "coverage": {
+    "years": [
+      "2023"
+    ]
+  },
+  "files": {
+    "count": 56,
+    "format": "parquet",
+    "compression": "zstd"
+  },
+  "rows": {
+    "total": 13916424
+  }
+}

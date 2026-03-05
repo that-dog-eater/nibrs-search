@@ -1,0 +1,117 @@
+{
+  "release": "38925-v1",
+  "table": "arrests",
+  "source": "ICPSR",
+  "created_at": "2026-03-02T01:27:12.929325Z",
+  "partitioning": {
+    "type": "hive",
+    "keys": [
+      "year"
+    ]
+  },
+  "schema": [
+    {
+      "name": "INCIDENT_ID",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "ORI",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "INCNUM",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "INCDATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6007",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6008",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6009",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6010",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6011",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6014",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6015",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6016",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6017",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "V6018",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "STATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "FIPS_STATE",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "YEAR",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "RELEASE",
+      "type": "string",
+      "nullable": true
+    }
+  ],
+  "coverage": {
+    "years": [
+      "2022"
+    ]
+  },
+  "files": {
+    "count": 22,
+    "format": "parquet",
+    "compression": "zstd"
+  },
+  "rows": {
+    "total": 5419504
+  }
+}
