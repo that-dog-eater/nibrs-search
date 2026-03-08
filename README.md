@@ -109,3 +109,7 @@ This makes it easy to move from exploration to deeper analysis using tools such 
 - R
 - Excel / Google Sheets
 - data science notebooks
+
+
+## Licence 
+ This project is licenced under the terms of the MIT license.
