@@ -13,11 +13,12 @@
   <img src="https://img.shields.io/badge/frontend-Next.js-black">
   <img src="https://img.shields.io/github/stars/that-dog-eater/nibrs-search">
 </p>
+
 ---
 
 **Website**: https://nibrssearch.org
 
-**Source Code**: https://github.com/YOURNAME/nibrs-search
+**Source Code**: https://github.com/that-dog-eater/nibrs-search
 
 ---
 
